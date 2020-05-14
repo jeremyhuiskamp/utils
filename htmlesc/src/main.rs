@@ -8,7 +8,7 @@ fn help(prog_name: &String) {
     std::process::exit(1);
 }
 
-// TODO: deduplicate
+// TODO: deduplicate names in debug output
 #[derive(Debug)]
 enum EscapeError {
     IoError(io::Error),
