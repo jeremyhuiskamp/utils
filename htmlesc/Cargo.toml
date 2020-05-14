@@ -1,0 +1,8 @@
+[package]
+name = "htmlenc"
+version = "0.1.0"
+authors = ["Jeremy Huiskamp"]
+edition = "2018"
+
+[dependencies]
+htmlescape = "0.3.1"
