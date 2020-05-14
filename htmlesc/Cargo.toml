@@ -1,5 +1,5 @@
 [package]
-name = "htmlenc"
+name = "htmlesc"
 version = "0.1.0"
 authors = ["Jeremy Huiskamp"]
 edition = "2018"
