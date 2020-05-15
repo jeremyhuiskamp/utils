@@ -4,6 +4,10 @@ on:
   pull_request:
   push:
 
+defaults:
+  run:
+    working-directory: htmlesc
+
 jobs:
   build:
     runs-on: ubuntu-latest
