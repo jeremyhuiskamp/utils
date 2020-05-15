@@ -9,9 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Setup BATS
-      uses: mig4/setup-bats@master
-      with:
-        bats-version: 1.2.0
+      run: sudo npm install -g bats
     - uses: actions/checkout@v2
     - name: Build
       run: cargo build --verbose
