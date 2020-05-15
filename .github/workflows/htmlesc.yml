@@ -4,11 +4,6 @@ on:
   pull_request:
   push:
 
-defaults:
-  run:
-    shell: bash
-    working-directory: htmlesc
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -18,5 +13,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: Build
       run: cargo build --verbose
+      working-directory: htmlesc
     - name: Run tests
       run: ./test.bats
+      working-directory: htmlesc
