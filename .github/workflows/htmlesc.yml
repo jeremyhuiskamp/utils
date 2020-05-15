@@ -6,6 +6,7 @@ on:
 
 defaults:
   run:
+    shell: bash
     working-directory: htmlesc
 
 jobs:
